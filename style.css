@@ -1,0 +1,23 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pizzas {
+    display: fle;
+}
+.pizza {
+    background-color:#e9ecef;
+
+    /*Box model*/
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+   /* width: 20em;
+    display: inline-block;*/
+
+}
+@media (min-width: 960px) {
+    .pizzas {
+        display: flex;
+    }
+}
