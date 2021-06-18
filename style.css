@@ -1,20 +1,44 @@
 body {
     background-color: #e9ecef;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:sans-serif;
 }
-.pizzas {
-    display: fle;
+h1 {
+    color:black;
+    margin: 1em;
+}
+.location {
+    margin: 1.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .pizza {
+    overflow-wrap: break-word;
     background-color:#e9ecef;
-
-    /*Box model*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid;
-    padding: 1em;
-    margin: 1em;
-   /* width: 20em;
-    display: inline-block;*/
-
+    padding: 3.75em;
+    margin: 1.5em;
+}
+#pizza_sizes {
+    text-align: left;
+    margin:0em; 
+    padding: 0em;
+    display:inline; 
+    float:left
+}
+#pizza_prices {
+    text-align: left;
+    margin: 0em; 
+    padding: 0em;
+    display:inline; 
+    float:right
+}
+#contact {
+    font-family: sans-serif;
+    margin:0em;
+    padding: 0em;
+    display:inline; 
+    float:left;
 }
 @media (min-width: 960px) {
     .pizzas {
